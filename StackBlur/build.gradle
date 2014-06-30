@@ -1,4 +1,4 @@
-apply plugin: 'android-library'
+apply plugin: 'com.android.library'
 
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
@@ -6,11 +6,11 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion '19.1'
+    compileSdkVersion 20
+    buildToolsVersion '20'
 
     defaultConfig {
-        renderscriptTargetApi 19
+        renderscriptTargetApi 20
         renderscriptSupportMode true
     }
 
